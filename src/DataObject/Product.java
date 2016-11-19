@@ -13,6 +13,24 @@ public class Product {
     private String headicon;
     private List<String> despictures;
     private int stocknumber;
+    private boolean isPay;
+    private boolean isReturn;
+
+    public boolean isPay() {
+        return isPay;
+    }
+
+    public void setPay(boolean pay) {
+        isPay = pay;
+    }
+
+    public boolean isReturn() {
+        return isReturn;
+    }
+
+    public void setReturn(boolean aReturn) {
+        isReturn = aReturn;
+    }
 
     public String getName() {
         return name;

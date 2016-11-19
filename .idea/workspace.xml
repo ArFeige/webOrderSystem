@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb58130d-d94e-413c-8a1c-6ab96a53b284" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HelperUtil/Md5Encryption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSomething/one.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataObject/Product.java" afterPath="$PROJECT_DIR$/src/DataObject/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataObject/User.java" afterPath="$PROJECT_DIR$/src/DataObject/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java" afterPath="$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java" afterPath="$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java" />
     </list>
     <ignored path="WebOrderSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,16 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebOrderSystem.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebOrderSystem.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/artifacts/WebOrderSystem_war_exploded/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,32 +53,36 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataObject/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,37 +91,45 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataObject/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="532">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
                 <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,14 +138,67 @@
       <file leaf-file-name="UserAdo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+            <state relative-caret-position="346">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <marker date="1479527020539" expanded="true" signature="867:905" ph="SELECT * FRO... usertable" />
-                <marker date="1479527020539" expanded="true" signature="2114:2152" ph="SELECT * FRO... usertable" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2145#2146#0" expanded="true" />
+                <element signature="e#2855#2856#0" expanded="true" />
+                <element signature="e#2907#2908#0" expanded="true" />
+                <element signature="e#2963#2964#0" expanded="true" />
+                <element signature="e#3016#3017#0" expanded="true" />
+                <marker date="1479539355500" expanded="true" signature="904:936" ph="SELECT * FRO... usertable" />
+                <marker date="1479539355500" expanded="true" signature="904:950" ph="SELECT * FRO... usertable" />
+                <marker date="1479539355500" expanded="true" signature="904:959" ph="SELECT * FRO... usertable" />
+                <marker date="1479539355500" expanded="true" signature="2493:2545" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2550" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2557" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2560" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2569" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2589" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2603" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2607" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="2493:2608" ph="Insert into usertable... " />
+                <marker date="1479539355500" expanded="true" signature="3282:3310" ph="DELETE FROM " />
+                <marker date="1479539355500" expanded="true" signature="3282:3311" ph="DELETE FROM " />
+                <marker date="1479539355500" expanded="true" signature="3282:3325" ph="DELETE FROM " />
+                <marker date="1479539355500" expanded="true" signature="4132:4163" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4169" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4186" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4198" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4199" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4224" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4248" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4268" ph="UPDATE usert... " />
+                <marker date="1479539355500" expanded="true" signature="4132:4299" ph="UPDATE usert... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Md5Encryption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HelperUtil/Md5Encryption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSomething/one.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,8 +227,8 @@
       <file leaf-file-name="CommonDataBaseUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="-91">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,9 +257,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/DataObject/Product.java" />
         <option value="$PROJECT_DIR$/src/DataObject/User.java" />
+        <option value="$PROJECT_DIR$/src/DataObject/Product.java" />
         <option value="$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/HelperUtil/Md5Encryption.java" />
+        <option value="$PROJECT_DIR$/src/testSomething/one.java" />
         <option value="$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java" />
       </list>
     </option>
@@ -352,6 +412,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="testSomething" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelperUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DataObject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -386,7 +482,47 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.webordersystem">
+  <component name="RunManager" selected="Application.UserAdo">
+    <configuration default="false" name="UserAdo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DatabaseUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DatabaseUtil.UserAdo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WebOrderSystem" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testSomething.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="testSomething.one" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WebOrderSystem" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -878,9 +1014,17 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.webordersystem" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UserAdo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.one" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.UserAdo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.one" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -892,12 +1036,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479514757450</updated>
-      <workItem from="1479514761044" duration="10709000" />
+      <workItem from="1479514761044" duration="20067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10709000" />
+    <option name="totallyTimeSpent" value="20067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1604" height="867" extended-state="0" />
@@ -912,7 +1056,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1494709" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26587301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -977,53 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataObject/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1042,46 +1139,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataObject/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="247">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataObject/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
             <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
             <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/CommonDataBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelperUtil/Md5Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSomething/one.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/UserAdo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+        <state relative-caret-position="346">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <marker date="1479527020539" expanded="true" signature="867:905" ph="SELECT * FRO... usertable" />
-            <marker date="1479527020539" expanded="true" signature="2114:2152" ph="SELECT * FRO... usertable" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <marker date="1479539355500" expanded="true" signature="904:936" ph="SELECT * FRO... usertable" />
+            <marker date="1479539355500" expanded="true" signature="904:950" ph="SELECT * FRO... usertable" />
+            <marker date="1479539355500" expanded="true" signature="904:959" ph="SELECT * FRO... usertable" />
+            <marker date="1479539355500" expanded="true" signature="2493:2545" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2550" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2557" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2560" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2569" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2589" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2603" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2607" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="2493:2608" ph="Insert into usertable... " />
+            <marker date="1479539355500" expanded="true" signature="3282:3310" ph="DELETE FROM " />
+            <marker date="1479539355500" expanded="true" signature="3282:3311" ph="DELETE FROM " />
+            <marker date="1479539355500" expanded="true" signature="3282:3325" ph="DELETE FROM " />
+            <marker date="1479539355500" expanded="true" signature="4132:4163" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4169" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4186" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4198" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4199" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4224" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4248" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4268" ph="UPDATE usert... " />
+            <marker date="1479539355500" expanded="true" signature="4132:4299" ph="UPDATE usert... " />
           </folding>
         </state>
       </provider>

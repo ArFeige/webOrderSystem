@@ -10,6 +10,15 @@ public class User {
     private String email;
     private int issuper;
     private int userid;
+    private  String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public int getIssuper() {
         return issuper;
