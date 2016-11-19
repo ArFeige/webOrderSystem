@@ -13,19 +13,19 @@ import java.util.List;
 /**
  * Created by ldy on 2016/11/19.
  */
-public class UserAdo {
-    private static UserAdo userAdo;
+public class UserDAO {
+    private static UserDAO userDAO;
     private Connection connection;
     private CommonDataBaseUtil util;
 
-    private UserAdo() {
+    private UserDAO() {
         util = CommonDataBaseUtil.getCommonDataBaseUtil();
     }
 
-    public static UserAdo getUserAdo() {
-        if (userAdo == null)
-            userAdo = new UserAdo();
-        return userAdo;
+    public static UserDAO getUserDAO() {
+        if (userDAO == null)
+            userDAO = new UserDAO();
+        return userDAO;
     }
 
     private User HelpGetUser(String tattr, String name) {
@@ -125,13 +125,15 @@ public class UserAdo {
         int uid = one.getUserid();
         String profile = one.getProfile();
         String address = one.getAddress();
+        String phoneNumber=one.getPhoneNumber();
         Connection con = util.getConnection();
         try {
             Statement sta = con.createStatement();
-            String a1="UPDATE  usertable SET tpassword" + "=" + "\""+password+"\"" + "," + "issuper=" + issuper + ",tprofile=" + "\""+profile+"\"" + ",address=" + "\""+address+"\"" + " where " +
+            String a1="UPDATE  usertable SET tpassword" + "=" + "\""+password+"\"" + "," + "issuper=" + issuper + ",tprofile=" + "\""+profile+"\"" + ",address=" + "\""+address+"\""+"," +"phoneNumber="+"\""+phoneNumber+"\""+" where " +
                     " uid=" + uid;
 //            System.out.println(a1);
             t = sta.executeUpdate(a1);
+
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -159,7 +161,7 @@ public class UserAdo {
     }
     public static  void main(String []args)
     {
-        UserAdo userado=UserAdo.getUserAdo();
+        UserDAO userado= UserDAO.getUserDAO();
         User one=new User();
         one.setName("小明");
         one.setEmail("123456@gmail.com");
@@ -171,7 +173,7 @@ public class UserAdo {
             userado.UpdateUser(one);
             userado.DeleteUserWithName("ok");
             User user=userado.getUserWithName("ldy");
-            User user1=userAdo.getUserWithEmail("qq1098014590@gmail.com");
+            User user1= userDAO.getUserWithEmail("qq1098014590@gmail.com");
             user1.setPassword(Md5Encryption.stringMD5("abcd1234"));
             userado.UpdateUser(user1);
             System.out.println(user);

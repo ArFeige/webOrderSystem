@@ -11,6 +11,15 @@ public class User {
     private int issuper;
     private int userid;
     private  String address;
+    private String phoneNumber;
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 
     @Override
     public String toString() {

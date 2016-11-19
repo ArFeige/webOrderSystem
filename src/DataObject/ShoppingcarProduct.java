@@ -3,15 +3,15 @@ package DataObject;
 /**
  * Created by ldy on 2016/11/19.
  */
-public class ShopingcarProduct {
+public class ShoppingcarProduct {
     private Product product;
     private int num;
 
-    public ShopingcarProduct()
+    public ShoppingcarProduct()
     {
 
     }
-    public ShopingcarProduct(Product t,int n)
+    public ShoppingcarProduct(Product t, int n)
     {
         product=t;
         num=n;
@@ -19,7 +19,7 @@ public class ShopingcarProduct {
 
     @Override
     public String toString() {
-        return "ShopingcarProduct{" +
+        return "ShoppingcarProduct{" +
                 "product=" + product +
                 ", num=" + num +
                 '}';

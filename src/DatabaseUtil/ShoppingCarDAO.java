@@ -1,7 +1,7 @@
 package DatabaseUtil;
 
+import DataObject.ShoppingcarProduct;
 import DataObject.Product;
-import DataObject.ShopingcarProduct;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -13,20 +13,20 @@ import java.util.List;
 /**
  * Created by ldy on 2016/11/19.
  */
-public class ShoppingCarAdo {
-    private static ShoppingCarAdo shoppingCarAdo;
+public class ShoppingCarDAO {
+    private static ShoppingCarDAO shoppingCarDAO;
     private CommonDataBaseUtil util;
-    private ShoppingCarAdo(){util=CommonDataBaseUtil.getCommonDataBaseUtil();};
-    public static ShoppingCarAdo getShoppingCarAdo()
+    private ShoppingCarDAO(){util=CommonDataBaseUtil.getCommonDataBaseUtil();};
+    public static ShoppingCarDAO getShoppingCarDAO()
     {
-        if(shoppingCarAdo==null)
-            shoppingCarAdo=new ShoppingCarAdo();
-        return shoppingCarAdo;
+        if(shoppingCarDAO ==null)
+            shoppingCarDAO =new ShoppingCarDAO();
+        return shoppingCarDAO;
     }
-    public List<ShopingcarProduct> getShopingcarProducts(int uid)
+    public List<ShoppingcarProduct> getShopingcarProducts(int uid)
     {
         Connection connection=util.getConnection();
-        List<ShopingcarProduct>lists=new ArrayList<>();
+        List<ShoppingcarProduct>lists=new ArrayList<>();
         try {
             Statement statement=connection.createStatement();
             ResultSet set=statement.executeQuery("SELECT * FROM shoppingcar WHERE uid="+uid);
@@ -34,13 +34,13 @@ public class ShoppingCarAdo {
             if(!t) {
                 return null;
             }
-            ProductAdo productAdo=ProductAdo.getProductAdo();
+            ProductDAO productDAO = ProductDAO.getProductDAO();
             while (!set.isAfterLast())
             {
                 int num=set.getInt(set.findColumn("num"));
                 int pid=set.getInt(set.findColumn("pid"));
-                Product p=productAdo.getProductWithId(pid);
-                ShopingcarProduct a1=new ShopingcarProduct();
+                Product p= productDAO.getProductWithId(pid);
+                ShoppingcarProduct a1=new ShoppingcarProduct();
                 a1.setNum(num);
                 a1.setProduct(p);
                 lists.add(a1);
@@ -52,7 +52,7 @@ public class ShoppingCarAdo {
         }
         return lists;
     }
-    public void AddShopingCarProduct(ShopingcarProduct product,int uid)
+    public void AddShopingCarProduct(ShoppingcarProduct product, int uid)
     {
         Product product1=product.getProduct();
         int n=product.getNum();
@@ -78,7 +78,7 @@ public class ShoppingCarAdo {
         }
 
     }
-    public void UpdateShopingCarProduct(int uid,ShopingcarProduct shopingcarProduct)
+    public void UpdateShopingCarProduct(int uid, ShoppingcarProduct shopingcarProduct)
     {
         Connection connection=util.getConnection();
         try {
@@ -93,18 +93,18 @@ public class ShoppingCarAdo {
     }
     public static  void main(String []args)
     {
-        ShoppingCarAdo shoppingCarAdo=ShoppingCarAdo.getShoppingCarAdo();
-        ShopingcarProduct t=new ShopingcarProduct();
+        ShoppingCarDAO shoppingCarDAO = ShoppingCarDAO.getShoppingCarDAO();
+        ShoppingcarProduct t=new ShoppingcarProduct();
         Product t1=new Product();
         t1.setId(99);
         t1.setName("猕猴桃");
         t1.setPrice(90);
         t.setProduct(t1);
         t.setNum(9);
-        shoppingCarAdo.AddShopingCarProduct(t,16);
+        shoppingCarDAO.AddShopingCarProduct(t,16);
         t.setNum(99);
-        shoppingCarAdo.UpdateShopingCarProduct(16,t);
-        List<ShopingcarProduct> plist=shoppingCarAdo.getShopingcarProducts(16);
+        shoppingCarDAO.UpdateShopingCarProduct(16,t);
+        List<ShoppingcarProduct> plist= shoppingCarDAO.getShopingcarProducts(16);
         System.out.print(plist.size());
     }
 }

@@ -12,17 +12,17 @@ import java.util.List;
 /**
  * Created by ldy on 2016/11/19.
  */
-public class ProductAdo {
+public class ProductDAO {
     private CommonDataBaseUtil util;
-    private static ProductAdo productAdo;
-    private  ProductAdo(){
+    private static ProductDAO productDAO;
+    private ProductDAO(){
         util=CommonDataBaseUtil.getCommonDataBaseUtil();
     }
-    public static ProductAdo getProductAdo()
+    public static ProductDAO getProductDAO()
     {
-        if(productAdo==null)
-            productAdo=new ProductAdo();
-        return productAdo;
+        if(productDAO ==null)
+            productDAO =new ProductDAO();
+        return productDAO;
     }
     public List<Integer>getAllProductId()
     {
@@ -177,7 +177,7 @@ public class ProductAdo {
     }
     public static void main(String []args)
     {
-        ProductAdo pro=ProductAdo.getProductAdo();
+        ProductDAO pro= ProductDAO.getProductDAO();
         Product pr=new Product();
         pr.setName("啤酒");
         pro.InsertNewProduct(pr);
