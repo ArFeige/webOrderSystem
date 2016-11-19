@@ -8,7 +8,24 @@ public class User {
     private String password;
     private String profile;
     private String email;
-    private boolean issuper;
+    private int issuper;
+    private int userid;
+
+    public int getIssuper() {
+        return issuper;
+    }
+
+    public void setIssuper(int issuper) {
+        this.issuper = issuper;
+    }
+
+    public int getUserid() {
+        return userid;
+    }
+
+    public void setUserid(int userid) {
+        this.userid = userid;
+    }
 
     public String getName() {
         return name;
@@ -42,11 +59,4 @@ public class User {
         this.email = email;
     }
 
-    public boolean issuper() {
-        return issuper;
-    }
-
-    public void setIssuper(boolean issuper) {
-        this.issuper = issuper;
-    }
 }
