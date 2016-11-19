@@ -78,6 +78,7 @@ public class ProductAdo {
                 pro.setDiscountPrice(set.getFloat(set.findColumn("discountprice")));
 
             }
+            con.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -113,6 +114,7 @@ public class ProductAdo {
                     sta.executeUpdate("UPDATE  des_prictures SET pid"+"="+id+","+"despicture="+"\""+t+"\"");
                 }
             }
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -132,6 +134,7 @@ public class ProductAdo {
         try {
             Statement sta=con.createStatement();
             sta.execute("DELETE  FROM product WHERE "+tname+"="+name);
+            con.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -145,7 +148,7 @@ public class ProductAdo {
             Statement sta=con.createStatement();
             ResultSet set=sta.executeQuery("SELECT * FROM product where tname="+"\""+name+"\"");
             t=set.next();
-
+            con.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -18,6 +18,13 @@ public class Product {
     private float discountPrice;
     private float price;
 
+    public Product(String name) {
+        this.name = name;
+    }
+
+    public Product() {
+    }
+
     @Override
     public String toString() {
         return "Product{" +
