@@ -15,6 +15,41 @@ public class Product {
     private int stocknumber;
     private boolean isPay;
     private boolean isReturn;
+    private float discountPrice;
+    private float price;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", desdetail='" + desdetail + '\'' +
+                ", title='" + title + '\'' +
+                ", id=" + id +
+                ", headicon='" + headicon + '\'' +
+                ", despictures=" + despictures +
+                ", stocknumber=" + stocknumber +
+                ", isPay=" + isPay +
+                ", isReturn=" + isReturn +
+                ", discountPrice=" + discountPrice +
+                ", price=" + price +
+                '}';
+    }
+
+    public float getDiscountPrice() {
+        return discountPrice;
+    }
+
+    public void setDiscountPrice(float discountPrice) {
+        this.discountPrice = discountPrice;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
 
     public boolean isPay() {
         return isPay;
