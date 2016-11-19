@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,6 +23,26 @@ public class ProductAdo {
         if(productAdo==null)
             productAdo=new ProductAdo();
         return productAdo;
+    }
+    public List<Integer>getAllProductId()
+    {
+        List<Integer>list = null;
+        Connection connection=util.getConnection();
+        try {
+            Statement statement=connection.createStatement();
+            ResultSet  set=statement.executeQuery("SELECT pid FROM product");
+            while(set.next())
+            {
+                if(list==null)
+                    list=new ArrayList<>();
+                list.add(set.getInt(set.findColumn("pid")));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+
     }
     public void InsertNewProduct(Product product)
     {

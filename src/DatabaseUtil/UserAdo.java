@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by ldy on 2016/11/19.
@@ -135,6 +137,25 @@ public class UserAdo {
             e.printStackTrace();
         }
         return t;
+    }
+    public List<Integer> getAllUserId()
+    {
+        List<Integer>lists=null;
+        Connection connection=util.getConnection();
+        try {
+            Statement statement=connection.createStatement();
+            ResultSet set=statement.executeQuery("SELECT uid from usertable");
+            while (set.next())
+            {
+                if(lists==null)
+                    lists=new ArrayList<>();
+                lists.add(set.getInt(1));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return lists;
+
     }
     public static  void main(String []args)
     {
