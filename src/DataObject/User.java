@@ -12,6 +12,19 @@ public class User {
     private int userid;
     private  String address;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", profile='" + profile + '\'' +
+                ", email='" + email + '\'' +
+                ", issuper=" + issuper +
+                ", userid=" + userid +
+                ", address='" + address + '\'' +
+                '}';
+    }
+
     public String getAddress() {
         return address;
     }
