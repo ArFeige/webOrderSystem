@@ -12,7 +12,6 @@
   </head>
   <body>
  hello.world
- <jsp:forward page="/Servlets/FirstServlet"></jsp:forward>
   <%
 
   %>

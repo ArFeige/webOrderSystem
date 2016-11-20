@@ -8,7 +8,7 @@ public class User {
     private String password;
     private String profile;
     private String email;
-    private int issuper;
+    private int issuper=0;
     private int userid;
     private  String address;
     private String phoneNumber;

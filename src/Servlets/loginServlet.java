@@ -6,23 +6,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
 /**
  * Created by ldy on 2016/11/20.
  */
-@WebServlet(name = "FirstServlet")
-public class FirstServlet extends HttpServlet {
+@WebServlet(name = "loginServlet")
+public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=gb2312");
+        response.setContentType("text/htmp;charset=UTF8");
         PrintWriter writer=response.getWriter();
-        writer.println("Hello,world，这是我的世界");
-
-
+        writer.write("This is login"+"<BR>");
     }
 }

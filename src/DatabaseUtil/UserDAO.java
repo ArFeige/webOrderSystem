@@ -3,6 +3,7 @@ package DatabaseUtil;
 import DataObject.User;
 import HelperUtil.Md5Encryption;
 
+import javax.jws.soap.SOAPBinding;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -71,11 +72,12 @@ public class UserDAO {
         String name = one.getName();
         String password = one.getPassword();
         String email = one.getEmail();
+        int b1=one.getIssuper();
         Connection con = util.getConnection();
         boolean t = false;
         try {
             Statement sta = con.createStatement();
-            String t1="Insert into usertable(tname,email,tpassword) values("+"\""+name+"\""+","+"\""+email+"\""+","+"\""+password+"\""+")";
+            String t1="Insert into usertable(tname,email,tpassword,issuper) values("+"\""+name+"\""+","+"\""+email+"\""+","+"\""+password+"\""+","+b1+")";
 //            System.out.println(t1);
             t = sta.execute(t1);
 
@@ -163,24 +165,22 @@ public class UserDAO {
     {
         UserDAO userado= UserDAO.getUserDAO();
         User one=new User();
-        one.setName("小明");
-        one.setEmail("123456@gmail.com");
-        one.setPassword(Md5Encryption.stringMD5("no"));
-        try {
-            userado.InsertUser(one);
-            one.setProfile("nothing");
-            one.setUserid(8);
-            userado.UpdateUser(one);
-            userado.DeleteUserWithName("ok");
-            User user=userado.getUserWithName("ldy");
-            User user1= userDAO.getUserWithEmail("qq1098014590@gmail.com");
-            user1.setPassword(Md5Encryption.stringMD5("abcd1234"));
-            userado.UpdateUser(user1);
-            System.out.println(user);
-            System.out.println(user1);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        one.setName("ldy");
+        one.setPassword(Md5Encryption.stringMD5("abcd1234"));
+        one.setIssuper(1);
+        one.setEmail("qq1098014590@gmail.com");
+        //            userado.InsertUser(one);
+        one=new User();
+        one.setName("hui");
+        one.setPassword(Md5Encryption.stringMD5("hui"));
+        one.setIssuper(1);
+        one.setEmail("12345@qq.com");
+//            userado.InsertUser(one);
+        one.setName("lin");
+        one.setPassword(Md5Encryption.stringMD5("lin"));
+        one.setIssuper(1);
+        one.setEmail("lin@qq.com");
+//            userado.InsertUser(one);
     }
 
 
