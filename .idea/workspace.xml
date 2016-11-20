@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb58130d-d94e-413c-8a1c-6ab96a53b284" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/backGround.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/com.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/comtu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/haha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/head.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/loginBack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/onlyForReset.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/pwd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/show.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/modify.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/resetPasswd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebOrderSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,45 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataObject/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataObject/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShoppingCarDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/ShoppingCarDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
+            <state relative-caret-position="1620">
               <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1479570814707" expanded="true" signature="979:1015" ph="SELECT * FRO... shoppingcar" />
-                <marker date="1479570814707" expanded="true" signature="2110:2156" ph="INSERT INTO shoppingcar... " />
-                <marker date="1479570814707" expanded="true" signature="2110:2164" ph="INSERT INTO shoppingcar... " />
-                <marker date="1479570814707" expanded="true" signature="2110:2172" ph="INSERT INTO shoppingcar... " />
-                <marker date="1479570814707" expanded="true" signature="2110:2178" ph="INSERT INTO shoppingcar... " />
-                <marker date="1479570814707" expanded="true" signature="2520:2556" ph="DELETE FROM " />
-                <marker date="1479570814707" expanded="true" signature="3041:3068" ph="UPDATE shopp... " />
-                <marker date="1479570814707" expanded="true" signature="3041:3072" ph="UPDATE shopp... " />
-                <marker date="1479570814707" expanded="true" signature="3041:3077" ph="UPDATE shopp... " />
-                <marker date="1479570814707" expanded="true" signature="3041:3090" ph="UPDATE shopp... " />
-                <marker date="1479570814707" expanded="true" signature="3041:3101" ph="UPDATE shopp... " />
-                <marker date="1479570814707" expanded="true" signature="3041:3109" ph="UPDATE shopp... " />
               </folding>
             </state>
           </provider>
@@ -71,58 +54,75 @@
       <file leaf-file-name="FirstServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Servlets/FirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="510">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="488">
               <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1479604616226" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
-                <marker date="1479604616226" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
-                <marker date="1479604616226" expanded="true" signature="3428:3489" ph="DELETE FROM " />
-                <marker date="1479604616226" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
-                <marker date="1479604616226" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
+                <marker date="1479606296582" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
+                <marker date="1479606296582" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
+                <marker date="1479606296582" expanded="true" signature="3428:3489" ph="DELETE FROM " />
+                <marker date="1479606296582" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
+                <marker date="1479606296582" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingcarProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataObject/ShoppingcarProduct.java">
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Jsps/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataObject/User.java">
+      <file leaf-file-name="resetPasswd.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Jsps/resetPasswd.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Jsps/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="775">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Jsps/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1385">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modify.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Jsps/modify.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3420">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
       <file leaf-file-name="loginServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Servlets/loginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="480">
               <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
             </state>
@@ -141,7 +141,7 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="570">
               <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
@@ -190,6 +190,10 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Servlets/loginServlet.java" />
+        <option value="$PROJECT_DIR$/web/Jsps/register.html" />
+        <option value="$PROJECT_DIR$/web/Jsps/list.jsp" />
+        <option value="$PROJECT_DIR$/web/Jsps/login.jsp" />
+        <option value="$PROJECT_DIR$/web/Jsps/resetPasswd.jsp" />
       </list>
     </option>
   </component>
@@ -214,9 +218,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1604" />
-    <option name="height" value="867" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -243,37 +248,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -283,29 +282,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -319,11 +300,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -337,79 +318,23 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
+              <option name="myItemId" value="webOrderSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Servlets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelperUtil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebOrderSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatabaseUtil" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,6 +346,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitProjects\runningIT\webOrderSystem\web\Jsps" />
+      <recent name="E:\gitProjects\runningIT\webOrderSystem\web\Images" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.webordersystem">
     <configuration default="false" name="UserDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1056,14 +987,15 @@
       <workItem from="1479568610125" duration="7755000" />
       <workItem from="1479600026118" duration="3965000" />
       <workItem from="1479604627241" duration="615000" />
+      <workItem from="1479606306302" duration="186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48843000" />
+    <option name="totallyTimeSpent" value="49029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1604" height="867" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1118,36 +1050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/ShoppingCarDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1479570814707" expanded="true" signature="979:1015" ph="SELECT * FRO... shoppingcar" />
-            <marker date="1479570814707" expanded="true" signature="2110:2156" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2164" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2172" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2178" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2520:2556" ph="DELETE FROM " />
-            <marker date="1479570814707" expanded="true" signature="3041:3068" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3072" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3077" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3090" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3101" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3109" ph="UPDATE shopp... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataObject/ShoppingcarProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testSomething/one.java" />
     <entry file="file://$PROJECT_DIR$/web/Jsps/readme">
       <provider selected="true" editor-type-id="text-editor">
@@ -1181,11 +1083,11 @@
           <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1479604616226" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
-            <marker date="1479604616226" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
-            <marker date="1479604616226" expanded="true" signature="3428:3489" ph="DELETE FROM " />
-            <marker date="1479604616226" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
-            <marker date="1479604616226" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
+            <marker date="1479606296582" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
+            <marker date="1479606296582" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
+            <marker date="1479606296582" expanded="true" signature="3428:3489" ph="DELETE FROM " />
+            <marker date="1479606296582" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
+            <marker date="1479606296582" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
           </folding>
         </state>
       </provider>
@@ -1196,47 +1098,6 @@
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1479569300440" expanded="true" signature="867:890" ph="SELECT pid F... product" />
-            <marker date="1479569300440" expanded="true" signature="1754:1841" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1843" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1846" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1854" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1858" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1876" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1887" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1891" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1896" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1914" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1937" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1955" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1975" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1999" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2000" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2003" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2198" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2222" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2229" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2240" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2754:2781" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2782" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2792" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2797" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2807" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="4059:4413" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4059:4426" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4720" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4724" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4731" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4745" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4750" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4757" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="5306:5332" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5333" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5343" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5345" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5697:5731" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5736" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5746" ph="SELECT * FRO... product" />
           </folding>
         </state>
       </provider>
@@ -1248,18 +1109,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1479570814707" expanded="true" signature="979:1015" ph="SELECT * FRO... shoppingcar" />
-            <marker date="1479570814707" expanded="true" signature="2110:2156" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2164" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2172" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2178" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2520:2556" ph="DELETE FROM " />
-            <marker date="1479570814707" expanded="true" signature="3041:3068" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3072" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3077" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3090" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3101" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3109" ph="UPDATE shopp... " />
           </folding>
         </state>
       </provider>
@@ -1335,11 +1184,11 @@
           <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1479604616226" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
-            <marker date="1479604616226" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
-            <marker date="1479604616226" expanded="true" signature="3428:3489" ph="DELETE FROM " />
-            <marker date="1479604616226" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
-            <marker date="1479604616226" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
+            <marker date="1479606296582" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
+            <marker date="1479606296582" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
+            <marker date="1479606296582" expanded="true" signature="3428:3489" ph="DELETE FROM " />
+            <marker date="1479606296582" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
+            <marker date="1479606296582" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
           </folding>
         </state>
       </provider>
@@ -1350,47 +1199,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1479569300440" expanded="true" signature="867:890" ph="SELECT pid F... product" />
-            <marker date="1479569300440" expanded="true" signature="1754:1841" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1843" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1846" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1854" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1858" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1876" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1887" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1891" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1896" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1914" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1937" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1955" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1975" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1999" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2000" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2003" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2198" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2222" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2229" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2240" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2754:2781" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2782" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2792" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2797" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2807" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="4059:4413" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4059:4426" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4720" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4724" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4731" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4745" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4750" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4757" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="5306:5332" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5333" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5343" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5345" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5697:5731" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5736" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5746" ph="SELECT * FRO... product" />
           </folding>
         </state>
       </provider>
@@ -1459,47 +1267,6 @@
           <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1479569300440" expanded="true" signature="867:890" ph="SELECT pid F... product" />
-            <marker date="1479569300440" expanded="true" signature="1754:1841" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1843" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1846" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1854" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1858" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1876" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1887" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1891" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1896" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1914" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1937" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1955" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1975" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:1999" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2000" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="1754:2003" ph="INSERT INTO product... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2198" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2222" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2229" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2149:2240" ph="INSERT INTO des_pictures... " />
-            <marker date="1479569300440" expanded="true" signature="2754:2781" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2782" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2792" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2797" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="2754:2807" ph="SELECT * fro... product" />
-            <marker date="1479569300440" expanded="true" signature="4059:4413" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4059:4426" ph="UPDATE produ... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4720" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4724" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4731" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4745" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4750" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="4691:4757" ph="UPDATE des_p... " />
-            <marker date="1479569300440" expanded="true" signature="5306:5332" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5333" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5343" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5306:5345" ph="DELETE FROM " />
-            <marker date="1479569300440" expanded="true" signature="5697:5731" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5736" ph="SELECT * FRO... product" />
-            <marker date="1479569300440" expanded="true" signature="5697:5746" ph="SELECT * FRO... product" />
           </folding>
         </state>
       </provider>
@@ -1520,34 +1287,6 @@
             <element signature="e#3693#3694#0" expanded="false" />
             <element signature="e#3745#3746#0" expanded="false" />
             <element signature="e#3787#3788#0" expanded="false" />
-            <marker date="1479573347308" expanded="true" signature="1038:1070" ph="SELECT * FRO... ordertable" />
-            <marker date="1479573347308" expanded="true" signature="1038:1071" ph="SELECT * FRO... ordertable" />
-            <marker date="1479573347308" expanded="true" signature="1038:1084" ph="SELECT * FRO... ordertable" />
-            <marker date="1479573347308" expanded="true" signature="2553:2575" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2621" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2632" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2644" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2656" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2668" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2682" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2696" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="2553:2713" ph="INSERT INTO ordertable... " />
-            <marker date="1479573347308" expanded="true" signature="3177:3210" ph="DELETE FROM " />
-            <marker date="1479573347308" expanded="true" signature="3177:3225" ph="DELETE FROM " />
-            <marker date="1479573347308" expanded="true" signature="3177:3235" ph="DELETE FROM " />
-            <marker date="1479573347308" expanded="true" signature="3308:3341" ph="DELETE FROM " />
-            <marker date="1479573347308" expanded="true" signature="3401:3434" ph="DELETE FROM " />
-            <marker date="1479573347308" expanded="true" signature="4249:4275" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4283" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4291" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4295" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4305" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4314" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4324" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4336" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4349" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4356" ph="UPDATE order... " />
-            <marker date="1479573347308" expanded="true" signature="4249:4374" ph="UPDATE order... " />
           </folding>
         </state>
       </provider>
@@ -1564,7 +1303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataObject/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="450">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
@@ -1572,12 +1311,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testSomething/one.java" />
     <entry file="file://$PROJECT_DIR$/web/Jsps/logo.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/Jsps/list.html" />
-    <entry file="file://$PROJECT_DIR$/web/Jsps/login.html" />
-    <entry file="file://$PROJECT_DIR$/web/Jsps/register.html" />
     <entry file="file://$PROJECT_DIR$/src/DataObject/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="300">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#338#339#0" expanded="true" />
@@ -1588,7 +1324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataObject/ShoppingcarProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="330">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
@@ -1596,7 +1332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataObject/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="660">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
@@ -1604,7 +1340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="420">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
@@ -1612,7 +1348,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="570">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
@@ -1620,7 +1356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlets/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="510">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
@@ -1628,7 +1364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlets/loginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="480">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
@@ -1636,38 +1372,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/ShoppingCarDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
+        <state relative-caret-position="1620">
           <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1479570814707" expanded="true" signature="979:1015" ph="SELECT * FRO... shoppingcar" />
-            <marker date="1479570814707" expanded="true" signature="2110:2156" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2164" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2172" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2110:2178" ph="INSERT INTO shoppingcar... " />
-            <marker date="1479570814707" expanded="true" signature="2520:2556" ph="DELETE FROM " />
-            <marker date="1479570814707" expanded="true" signature="3041:3068" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3072" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3077" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3090" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3101" ph="UPDATE shopp... " />
-            <marker date="1479570814707" expanded="true" signature="3041:3109" ph="UPDATE shopp... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatabaseUtil/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="488">
           <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1479604616226" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
-            <marker date="1479604616226" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
-            <marker date="1479604616226" expanded="true" signature="3428:3489" ph="DELETE FROM " />
-            <marker date="1479604616226" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
-            <marker date="1479604616226" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
+            <marker date="1479606296582" expanded="true" signature="990:1053" ph="SELECT * FRO... usertable" />
+            <marker date="1479606296582" expanded="true" signature="2622:2751" ph="Insert into usertable... " />
+            <marker date="1479606296582" expanded="true" signature="3428:3489" ph="DELETE FROM " />
+            <marker date="1479606296582" expanded="true" signature="4326:4564" ph="UPDATE usert... " />
+            <marker date="1479606296582" expanded="true" signature="5011:5036" ph="SELECT uid f... usertable" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Jsps/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Jsps/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1385">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Jsps/modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Jsps/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Jsps/resetPasswd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
