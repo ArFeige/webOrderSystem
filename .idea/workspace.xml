@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb58130d-d94e-413c-8a1c-6ab96a53b284" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/backGround.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/com.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/comtu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/haha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/head.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/loginBack.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/onlyForReset.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/pwd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/show.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Jsps/resetPasswd.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Jsps/list.jsp" afterPath="$PROJECT_DIR$/web/Jsps/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Jsps/modify.jsp" afterPath="$PROJECT_DIR$/web/Jsps/modify.jsp" />
     </list>
     <ignored path="WebOrderSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +67,8 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Jsps/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -91,8 +77,8 @@
       <file leaf-file-name="resetPasswd.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/Jsps/resetPasswd.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="278">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -101,8 +87,8 @@
       <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Jsps/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="277" column="10" selection-start-line="277" selection-start-column="10" selection-end-line="277" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -111,8 +97,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Jsps/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1385">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -121,8 +107,8 @@
       <file leaf-file-name="modify.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Jsps/modify.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3420">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -133,16 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -191,9 +167,10 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Servlets/loginServlet.java" />
         <option value="$PROJECT_DIR$/web/Jsps/register.html" />
-        <option value="$PROJECT_DIR$/web/Jsps/list.jsp" />
         <option value="$PROJECT_DIR$/web/Jsps/login.jsp" />
         <option value="$PROJECT_DIR$/web/Jsps/resetPasswd.jsp" />
+        <option value="$PROJECT_DIR$/web/Jsps/list.jsp" />
+        <option value="$PROJECT_DIR$/web/Jsps/modify.jsp" />
       </list>
     </option>
   </component>
@@ -987,15 +964,15 @@
       <workItem from="1479568610125" duration="7755000" />
       <workItem from="1479600026118" duration="3965000" />
       <workItem from="1479604627241" duration="615000" />
-      <workItem from="1479606306302" duration="186000" />
+      <workItem from="1479606306302" duration="509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49029000" />
+    <option name="totallyTimeSpent" value="49352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1050,7 +1027,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testSomething/one.java" />
     <entry file="file://$PROJECT_DIR$/web/Jsps/readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1395,42 +1371,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/Images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/Jsps/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="277" column="10" selection-start-line="277" selection-start-column="10" selection-end-line="277" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Jsps/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1385">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Jsps/modify.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3420">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Jsps/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Jsps/resetPasswd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="278">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding />
         </state>
       </provider>

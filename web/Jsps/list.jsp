@@ -31,13 +31,13 @@
 		height: 200px;
 		background-color:white; 
 		z-index: 10;
-		background-image: url(head.jpg);
+		background-image: url(../Images/head.jpg);
 		background-position: 0px -100px;
 	}
-	#body{
+	.body{
 		position: relative;
 	}
-	#left{
+	.left{
 		width: 300px;
 		height: 700px;
 		position: absolute;
@@ -47,7 +47,7 @@
 		background-repeat: no-repeat;
 		background-position: -750px -95px;
 	}
-	#middle{
+	.middle{
 		width: 1100px;
 		background-color:red; 
 		position: absolute;
@@ -55,7 +55,7 @@
 		left: 400px;
 		position: relative;
 	}
-	#right{
+	.right{
 		width: 300px;
 		height: 800px;
 		position: absolute;
@@ -122,8 +122,8 @@
 		<h1>Hacker全场八折！震撼跳楼降价！</h1>
 		<h2>998!你值得拥有！</h2>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -132,12 +132,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -146,12 +146,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -160,12 +160,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -174,12 +174,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -188,12 +188,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -202,12 +202,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -216,12 +216,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -230,12 +230,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -244,12 +244,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -258,12 +258,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -272,12 +272,13 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
-	<div id="body">
-		<div id="middle">
+
+	<div class="body">
+		<div class="middle">
 			<div class="box">
 				<div class="pic"></div>
 				<div class="intro">详情很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话很多话</div>
@@ -286,10 +287,12 @@
 			</div>
 		</div>
 
-		<div id="left"></div>
+		<div class="left"></div>
 
-		<div id="right"></div>
+		<div class="right"></div>
 	</div>
+
+
 	<>
 </body>
 </html>

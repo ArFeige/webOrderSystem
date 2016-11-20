@@ -6,7 +6,7 @@
 	<style type="text/css">
 	*{margin:0;padding:0;}
 	body{
-		background-image: url(backGround.jpg);
+		background-image: url(../Images/backGround.jpg);
 	}
 	h5{
 		font-size: 70px;
